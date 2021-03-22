@@ -1,0 +1,28 @@
+{
+  "name": "web-template-cli",
+  "version": "1.0.0",
+  "description": "web-template-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-template-cli"
+  ],
+  "author": "huangjian",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.3"
+  },
+  "bin": {
+    "vli": "bin/vli.js",
+    "vli-add": "bin/vli-add.js",
+    "vli-delete": "bin/vli-delete.js",
+    "vli-list": "bin/vli-list.js",
+    "vli-init": "bin/vli-init.js"
+  }
+}
